@@ -1,0 +1,40 @@
+<!--Frank Cervnates 
+    brainwave Trivia
+    06/24/23 -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="game.css">
+    <title>Brainwave Trivia</title>
+</head>
+
+<body>
+    <header class="header">
+        <h1><a href="steps.html">BrainWave Trivia: U.S. States</a></h1>
+        <p>Background muisc from: <a href="https://pixabay.com/music/happy-childrens-tunes-spring-upbeat-133219/">here</a></p>
+    </header>
+<audio id="background-music" src="assets/spring-upbeat-133219.mp3" loop></audio>
+
+    <section class="quiz-section">
+        <div class="container">
+            <div class="question" id="question"></div>
+            <div class="answers" id="answers"></div>
+            <button class="next-button" id="next-button" onclick="nextQuestion()">Next</button>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2023 brainwave Trivia. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="game.js"></script>
+</body>
+
+</html>
